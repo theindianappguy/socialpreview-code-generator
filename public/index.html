@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="./images/logo.png" />
+
+    <!-- Bootstrap Flatly theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/flatly/bootstrap.min.css"
+        integrity="sha384-mhpbKVUOPCSocLzx2ElRISIORFRwr1ZbO9bAlowgM5kO7hnpRBe+brVj8NNPUiFs" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>How to make Social preview your website links</title>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="content_header"
+            style="display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;">
+            <h3 style="font-size: 24px; ">Beautiful link previews.</h3>
+            <h5 style="font-size: 30px; font-weight: 700;">
+                Make Social preview your website links
+            </h5>
+
+            <p>Generate social preview images in simple 4 steps.</p>
+
+            <!-- Step1 -->
+            <div class="steps-tile">
+                <div>
+                    <h4 style="font-size: 20px
+              ; margin-top: 16px;">
+                        <b>Step1</b> : Create social share image & download
+                    </h4>
+                    <p style="font-size: 16px;">Dimension for image 1200px 640px here is a simple <a target="_blank"
+                            href="https://www.canva.com/design/DAESYeQ9fIU/cP4daCTohXSC3uC6dh0ctw/view?utm_content=DAESYeQ9fIU&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview">Canva
+                            template</a> for you.
+                        Create screenshot using <a target="_blank" href="https://www.screely.com/">screenly</a> </p>
+
+                    <img style="max-height: 300px; max-width: 90vw; object-fit: contain; border: 1px grey solid; border-radius: 8px;"
+                        src="https://user-images.githubusercontent.com/55942632/103668060-b4b22b80-4f9c-11eb-9da6-0959134c38b5.jpg" />
+
+                </div>
+            </div>
+            <!--  -->
+
+            <!-- Step2 -->
+            <div class="steps-tile">
+                <div>
+                    <h4 style="font-size: 20px
+                   ; margin-top: 16px;">
+                        <b>Step2</b> : Compress Image and upload to server
+                    </h4>
+                    <p>To compress image visit <a href="https://png2jpg.com/">Png2Jpg</a>, you can upload image in your
+                        wordpress site & get image url, i create landing page with html css so i upload to github simply
+                        open any repo
+                        click on new issue and drag and drop the image to leave a comment section it will show uploading
+                        and in few minutes you will have a url enter that below<a>here</a>.</p>
+                    <div style="display: flex; flex-direction: column; ">
+                        <input id="stepsTile__imgUrl" class="stepsTile__input" style="margin-bottom: 8px;"
+                            placeholder="image url" />
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+
+            <!-- Step3 -->
+            <div class="steps-tile">
+                <div>
+                    <h4 style="font-size: 20px
+                   ; margin-top: 16px;">
+                        <b>Step3</b> : Enter Webpage Info
+                    </h4>
+                    <p>Info will be used to generate the code to be added to the webpage.</p>
+                    <div style="display: flex; flex-direction: column; ">
+                        <input id="stepsTile__title" class="stepsTile__input" placeholder="title" />
+                        <input id="stepsTile__description" class="stepsTile__input" placeholder="description" />
+                        <input id="stepsTile__webUrl" class="stepsTile__input" placeholder="webpage url" />
+                    </div>
+                    <p>Click the button below making sure all the fields are filled and code will be generated.</p>
+                    <button id="stepsTile__cta" class="custom-btn" style="margin-top: 16px;" target="_blank">
+                        Generate Header Code & Copy code to clipboard
+                    </button>
+                </div>
+            </div>
+
+            <textarea id="stepsTile__codeTextarea" class="stepsTile__textarea" rows="7"
+                placeholder="code will appear here"></textarea>
+            <!--  -->
+
+            <div class="footer">
+                <div class="footer__text">Made by <a
+                        href="https://www.youtube.com/channel/UCsPdgUIoOBTBI1UmulW1pdw">Sanskar Tiwari</a></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
